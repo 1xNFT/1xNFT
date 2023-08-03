@@ -141,6 +141,7 @@
                 <div class="col-12 col-md-6">
                     <h1 class="main-font font-weight-bold text-white">1xNFT <span class="d-block text-blue"> marketplace </span></h1>
                     <p class="alt-font text-white my-3">Start your NFT adventure with 1xNFT today and unlock the potential of the multichain revolution. </p>
+                    <a  onclick="morphic_window('morphic-window3');" class="btn btn-medium btn-rounded btn-red text-capitalize mt-3 mb-5 mb-md-0"  >Mint Royal Cats On Base</a>
                   <!--   <a  onclick="morphic_window('morphic-window1');" class="btn btn-medium btn-rounded btn-red text-capitalize mt-3 mb-5 mb-md-0"  >Buy Presale Token</a>  -->
                      <a  onclick="morphic_window('morphic-window2');" class="btn btn-medium btn-rounded btn-red text-capitalize mt-3 mb-5 mb-md-0"  >Mint Grizzly NFT</a>
                    <!-- <a  href="https://opensea.io/collection/1xnftcats" target="_blank" class="btn btn-medium btn-rounded btn-red text-capitalize mt-3 mb-5 mb-md-0">Check Opensea</a> -->
@@ -475,7 +476,7 @@
     </div>
     </div>
     <!-- Modal Window 1 End -->
-
+<div id="data-modal">
     <!-- Modal Window 2 Start -->
    <div id="data-modal">
     <div class="modal-window" id="morphic-window2">
@@ -492,104 +493,21 @@
      </div>
 
     <!-- Modal Window 2 End -->
-
+<div id="data-modal">
     <!-- Modal Window 3 Start -->
     <div class="modal-window" id="morphic-window3">
         <div class="modal-body">
-            <header>
-                <span class="close-modal"><i></i><i></i></span>
-            </header>
-            <div class="morphic-body">
-                <div class="container">
-                    <div class="row main-morphic-body align-items-center">
-                        <div class="morphic-img col-12 col-md-6">
-                            <!-- Main Image -->
-                            <div id="carousel-thumb3" class="carousel slide carousel-fade carousel-thumbnails" data-ride="carousel">
-                                <!--Slides-->
-                                <div class="carousel-inner" role="listbox">
-                                    <div class="carousel-item active">
-                                        <img class="d-block w-100" src="cars-automobile/images/model-windows/modal-img-1.png" alt="First slide">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="cars-automobile/images/model-windows/modal-img-2.png" alt="Second slide">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="cars-automobile/images/model-windows/modal-img-3.png" alt="Third slide">
-                                    </div>
-                                </div>
-                                <!--/.Slides-->
-                                <ol class="carousel-indicators">
-                                    <li data-target="#carousel-thumb3" data-slide-to="0" class="active">
-                                        <img class="d-block w-100 img-fluid" src="cars-automobile/images/model-windows/modal1-sub1.png" alt="First slide">
-                                    </li>
-                                    <li data-target="#carousel-thumb3" data-slide-to="1">
-                                        <img class="d-block w-100 img-fluid" src="cars-automobile/images/model-windows/modal1-sub2.png" alt="Second slide">
-                                    </li>
-                                    <li data-target="#carousel-thumb3" data-slide-to="2">
-                                        <img class="d-block w-100 img-fluid" src="cars-automobile/images/model-windows/modal1-sub3.png" alt="Third slide">
-                                    </li>
-                                </ol>
-                            </div>
-                            <!--/.Carousel Wrapper-->
-                        </div>
-                        <div class="morphic-title col-12 col-md-6">
-                            <h5>Article PZ-1000-23</h5>
-                            <h3>Engine Suspension</h3>
-                            <p>Lorem ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum has been the industry’s standard dummy. </p>
-
-                            <div class="row pb-md-4">
-                                <!-- Sizes -->
-                                <div class="col-3 col-md-2 d-flex align-items-center align-items-lg-end">
-                                    <div class="color-selection">
-                                        <h6 class="text-center text-md-left text-blue alt-font">Size:</h6>
-                                    </div>
-                                </div>
-                                <div class="col-9 col-md-10">
-                                    <div class="color-picker text-center text-md-left">
-                                        <div class="size__item">
-                                            <a class="active">155/75</a>
-                                            <a>165/75</a>
-                                            <a>185/75</a>
-                                            <a>210/75</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="row pb-4 mt-3 mt-md-0">
-                                <!-- Quantity -->
-                                <div class="col-3 col-md-1 col-lg-2 d-flex align-items-center align-items-md-start">
-                                    <div class="color-selection">
-                                        <h6 class="text-center text-md-left text-blue alt-font">Qty:</h6>
-                                    </div>
-                                </div>
-                                <div class="col-9 col-lg-4 input_plus_mins">
-                                    <div class="qty">
-                                        <span class="minus bg-dark"><i class="lni-minus"></i></span>
-                                        <input type="number" class="count" name="qty" value="1">
-                                        <span class="plus bg-dark"><i class="lni-plus"></i></span>
-                                    </div>
-                                </div>
-                                <div class="col-12 price-modal"><h1>$299.00</h1></div>
-                                <div class="col-12 modal-btn"><a target="_blank" href="https://www.amazon.com/" class="btn btn-medium btn-rounded btn-red text-capitalize">Buy Link</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Modal Next & Prev  -->
-                    <div class="row justify-content-end">
-                        <div class="d-none d-md-block left-arrow-sec text-center mt-auto mb-auto">
-                            <a class="d-flex justify-content-center" onclick="prev_window('morphic-window2');"><i class="fa fa-angle-left"></i></a>
-                        </div>
-                        <div class="d-none d-md-block right-arrow-sec text-center mt-auto mb-auto">
-                            <a class="d-flex justify-content-center" onclick="next_window('morphic-window1');"><i class="fa fa-angle-right"></i></a>
-                        </div>
-                    </div>
-                </div>
+           <iframe
+    src="https://embed.ipfscdn.io/ipfs/bafybeia6j3as3msx2o55bezczmhdisfq6haqy3p5myfnemu5hjz6erps6m/?contract=0xd4dD9BAd81ccE5a4e1ab29B37933711F4510F0C4&chain=%7B%22name%22%3A%22Base%22%2C%22chain%22%3A%22ETH%22%2C%22rpc%22%3A%5B%22https%3A%2F%2Fbase.rpc.thirdweb.com%2F%22%5D%2C%22nativeCurrency%22%3A%7B%22name%22%3A%22Ether%22%2C%22symbol%22%3A%22ETH%22%2C%22decimals%22%3A18%7D%2C%22shortName%22%3A%22base%22%2C%22chainId%22%3A8453%2C%22testnet%22%3Afalse%2C%22slug%22%3A%22base%22%2C%22icon%22%3A%7B%22url%22%3A%22ipfs%3A%2F%2FQmW5Vn15HeRkScMfPcW12ZdZcC2yUASpu6eCsECRdEmjjj%2Fbase-512.png%22%2C%22height%22%3A512%2C%22width%22%3A512%2C%22format%22%3A%22png%22%7D%7D&clientId=337de95a06564735aca2431fa496abb1&theme=dark&primaryColor=red"
+    width="600px"
+    height="600px"
+    style="max-width:100%;"
+    frameborder="0"
+></iframe>
             </div>
         </div>
     </div>
     <!-- Modal Window 3 End -->
-</div>
 
 <!--START SCROLL TOP-->
 <div class="go-top"><i class="fas fa-angle-up"></i><i class="fas fa-angle-up"></i></div>
